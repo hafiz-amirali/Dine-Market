@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <header className={`absolute left-0 top-0 z-20 flex w-full items-center`}>
             <div className="container">
-                <div className="px-4 container lg:px-32">
+                <div className="px-4 lg:px-32">
                     <div className="relative -mx-4 flex items-center justify-between">
                         <div className="min-w-32 lg:max-w-full px-4">
                             <Link href="/#" className="block w-full py-5">
