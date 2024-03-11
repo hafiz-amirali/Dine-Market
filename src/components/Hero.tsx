@@ -50,11 +50,11 @@ const Hero = () => {
                         </div>
                         <div className="w-full px-4 lg:w-6/12">
                             <div className="lg:ml-auto lg:text-right">
-                                <div className="relative z-10 inline-block pt-11 lg:pt-0">
+                                <div className="relative z-10 inline-block pt-11 lg:pt-0 bg-orange-100 rounded-full">
                                     <Image
                                         src={heroImg}
                                         alt="hero"
-                                        className="max-w-full lg:ml-auto bg-orange-100 rounded-full"
+                                        className="max-w-full lg:ml-auto"
                                     />
                                 </div>
                             </div>
